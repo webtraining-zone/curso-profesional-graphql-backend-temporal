@@ -11,6 +11,7 @@ const Query = {
   // },
 
   books: forwardTo('db'),
+  book: forwardTo('db'),
 };
 
 module.exports = Query;
