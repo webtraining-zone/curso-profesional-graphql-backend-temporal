@@ -7,3 +7,5 @@ const db = new Prisma({
   endpoint: 'https://us1.prisma.sh/alex-arriaga-5d13f1/graphql-library/dev',
   debug: false,
 });
+
+module.exports = db;
